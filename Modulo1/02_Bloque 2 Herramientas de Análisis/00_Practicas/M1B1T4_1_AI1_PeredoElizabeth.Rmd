@@ -1,0 +1,239 @@
+---
+title: 'MÓDULO 1: HERRAMIENTAS BIG DATA'
+author: "ELIZABETH EVELIN PEREDO MESCCO"
+date: "17-12-2022"
+output:
+  html_document:
+    toc: yes
+    toc_depth: '6'
+    number_sections: true
+    theme: united
+    highlight: textmate
+    df_print: paged
+subtitle: 'HERRAMIENTAS DE ANALISIS: PROGRAMACIÓN EN R - MICROACTIVIDADES'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(pander)
+library(kableExtra)
+library(ggplot2)
+library(readxl)
+library(tidyr)
+library(dplyr)
+options(knitr.kable.NA = '')
+```
+
+# EJERCICIO 1
+
+Para el ejercicio 1, utilizaremos los datos los datos `millas` que hay el package `datos`. Estos datos consisten en 238 filas y 11 columnas que describen el consumo de combustible de 38 modelos de coche populares.
+
+Puedes consultar más sobre los datos en la ayuda: `?millas`.
+
+```{r}
+library(datos)
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+```
+?millas
+```
+
+## EJERCICIO 1.1.
+
+A partir de los datos de **millas**, dibuja un gráfico de dispersión de puntos que muestre las millas recorridas en autopista por galón de combustible consumido (**autopista**) respecto a la **cilindrada** del motor de cada automóvil. No olvides añadir títulos al gráfico y a los ejes x e y.
+
+
+```{r}
+# Solución:
+ggplot(data = millas) +
+ geom_point(mapping = aes(x =autopista, y =cilindrada, color=combustible))+
+  labs(title="Millas recorridas y tamaño de motor", x="Autopista (millas)", y="Tamaño del motor (litros)", color="Tipo de combustible")
+```
+
+## EJERCICIO 1.2.
+
+A partir del gráfico del ejercicio 1.1., escoge una columna para cada uno de los siguientes parámetros estéticos: `color`, `size` y `shape`.
+
+> Truco: Observa que puedes seleccionar tanto columnas numéricas como de tipo carácter o factor. Si lo crees interesante, puedes utilizar la misma columna para distintos parámetros del gráfico .
+
+Comenta algún aspecto relevante que hayas descubierto sobre los coches a partir del gráfico.
+
+```{r}
+# Solución:
+ggplot(data = millas) +
+ geom_point(mapping = aes(x =autopista, y =cilindrada, color=combustible)
+           , shape=1, size=3)+
+  labs(title="Millas recorridas y tamaño de motor", x="Autopista (millas)", y="Tamaño del motor (litros)", color="Tipo de combustible")
+```
+
+## EJERCICIO 1.3.
+
+Transforma el siguiente vector de tipo `factor` a tipo `numeric` de forma que el valor final mostrado sea exactamente el mismo en ambos vectores, pero con formato distinto. Para ello utiliza `as.character()` y `as.numeric()`. 
+
+¿Qué sucede si sólo utilizas `as.numeric()` directamente sobre la columna factor?
+
+
+```{r}
+vec <- factor(c("8","5","9","8","1","7"))
+print(vec) # valor mostrado
+typeof(vec)
+
+# Solución:
+# CHARACTER
+vec1 <- as.character(vec)
+print(vec1)
+typeof(vec1)
+
+# NUMERIC
+vec2 <- as.numeric(vec)
+print(vec2)
+typeof(vec2)
+
+# CHARACTER-NUMERIC
+vec3 <- as.numeric(as.character(vec))
+print(vec3)
+typeof(vec3)
+
+# Al usar "as.numeric" cambia el resultado del vector, entonce si queremos tener los mismos datos del vector sin alterar ninguno se debe combinar "as.character" y "as.numeric" y genera datos "double".
+```
+
+## EJERCICIO 1.4.
+
+Es millas un objeto de la clase *data.frame* o *matrix*?
+
+¿Y el siguiente objeto `obj`?
+
+```{r}
+obj <- cbind(millas$cilindrada,millas$cilindros)
+
+# solución
+class(millas)
+dim(millas)
+#OUTPUT: "tbl_df" "tbl" "data.frame"
+# "millas" es un dataframe con datos hereogeneos
+# Con "dim" nos indica que tiene 234 filas y 11 columnas
+
+class(obj)
+dim(obj)
+#OUTPUT: "matrix" "array"
+# "obj" es matrix con datos homogeneos
+# Con "dim" nos indica que tiene 234 filas y 2 columnas
+
+```
+
+## EJERCICIO 1.5.
+
+Crea una función que tome un vector de tipo integer como input y retorne un objeto de tipo lista que contega los siguientes 4 elementos:
+
+1. El último valor del vector
+1. Los elementos de las posiciones impares.
+1. Todos los elementos excepto el primero.
+1. Solo números impares (y no valores faltantes).
+
+```{r}
+# solución
+vector <- function(x) {
+  #Último valor
+  r1 <- tail(x, n = 1)
+  #Impares
+  r2 <- x[c(TRUE,FALSE)]
+  #Todos menos el 1ro
+  r3 <- x[-1]
+  #Solo impares
+  r4 <- x[x%%2 != 0] 
+  r4 <- r4[!is.na(r4)]
+
+ 
+  lista<-list(r1,r2,r3,r4)
+  print(lista)
+}
+vector1 <- c(-3:3, NA, NaN)
+vector(vector1)
+
+
+```
+
+## EJERCICIO 1.6.
+
+Busca un ejemplo de objeto x en el que la expresión `x[-which(x > 0)]` no devuelve el mismo resultado que `x[x <= 0]`
+
+```{r}
+# Solución:
+x <- c(-2:2, Inf, -Inf, NaN, NA)
+x[-which(x > 0)]
+x[x <= 0]
+
+# La función `which()` devuelve los índices para los cuales el argumento es `TRUE`, esto significa que no incluye los índices para los que el argumento es `FALSE` o `NA`.
+
+```
+
+## EJERCICIO 1.7.
+
+Añade a millas una nueva columna llamada "fabr_mod" que contenga la concatenación del nombre del fabricante, un guion "-" y el modelo del coche. Presenta la nueva columna mediante la función head().
+
+```{r}
+# Solución:
+millas7<-unite(millas,'fabr_mod', 'fabricante','modelo', sep = "-", remove = FALSE)
+
+head(millas7)
+```
+
+## EJERCICIO 1.8.
+
+Selecciona todos los coches de `millas` que cumplan con todas todas las condiciones siguientes:
+
+- La marca es distinta a "dodge"
+- Tiene tracción en las cuatro puertas
+- Han estado fabricados antes del 2008
+- Las millas/galón, o bién en ciudad, o bién en carretera, no llegan a 12 millas/galón.
+
+¿Cuantos coches has encontrado?
+
+```{r}
+# Solución:
+millas8<-filter(
+  millas,
+  fabricante!='dodge',
+  traccion==4,
+  anio<2008,
+  (autopista<12|ciudad<12))
+nrow(millas8)
+head(millas8)
+```
+
+## EJERCICIO 1.9.
+
+Añade una nueva columna "vol_por_cil" a `obj` del ejercicio 1.4. que contenga el ratio de la cilindrada sobre el número de cilindros. Presenta el summary de la nueva columna.
+
+```{r}
+# Solución:
+millas9<-cbind(obj,obj[,1]/obj[,2])
+colnames(millas9) <- c("Cilindrada", "Cilindros","vol_por_cil")
+head(millas9)
+
+print("Summary de la nueva columna")
+summary<-colSums(millas9[ , 3, drop = FALSE])
+print(summary)
+```
+
+## EJERCICIO 1.10.
+
+Modifica los valores de la columna "vol_por_cil" del objeto `obj` del ejercicio 1.9. asignando NA a los valores de esta columna que sean superiores a 0.7.
+
+Presenta los datos con un summary del nuevo objeto `obj`. ¿Cuántos valores NA se han creado en esta columna? 
+
+```{r}
+# Solución:
+millas10 <- as.data.frame(millas9)
+
+millas10$vol_por_cil[millas10$vol_por_cil>0.7]<-NA
+
+tabla10<-filter(millas10,is.na(millas10$vol_por_cil))
+print(tabla10)
+
+millas10<- subset(millas10, is.na(millas10$vol_por_cil))
+print(nrow(millas10))
+```
+
