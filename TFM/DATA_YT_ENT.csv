@@ -1,4 +1,4 @@
-﻿n;id;titulo;canal;categoria;enlace;video_date;video_year;video_mes
+﻿n;id;titulo;canal;categoria;enlace;date;anyo;mes
 1;AF6HyoFlXos;Las Ratitas hacen un McDonalds en el jardín y Gisele le pone Slime y Squishies;Las Ratitas;Videos infantiles;https://www.youtube.com/watch?v=AF6HyoFlXos;2019-01-12T16:28:57Z;2019;1
 2;uen40boIYAs;Las Ratitas se maquillan y se ponen uñas de colores;Las Ratitas;Videos infantiles;https://www.youtube.com/watch?v=uen40boIYAs;2019-01-04T17:32:32Z;2019;1
 3;B9DrH3sn1_o;Las Ratitas encuentran un esqueleto en casa y aprenden a jugar!!;Las Ratitas;Videos infantiles;https://www.youtube.com/watch?v=B9DrH3sn1_o;2019-01-18T17:42:51Z;2019;1
@@ -79,7 +79,7 @@
 78;h_HvCWQVzaw;EID MUBARAK (ঈদ মোবারক) l @ShakibKhanDigital l BUBLY l PASSWORD Movie Festive Song l EID SONG;SK Films;Música;https://www.youtube.com/watch?v=h_HvCWQVzaw;2019-06-01T04:58:49Z;2019;6
 79;69A5LIBwXt4;"Kid Dancers Izzy and Easton Dazzle With Contemporary Dance - America&#39;s Got Talent 2019";America's Got Talent;Talentos;https://www.youtube.com/watch?v=69A5LIBwXt4;2019-06-23T13:00:00Z;2019;6
 80;pCq1KEOwuSA;Rutina de noche de mis bebés reborn Anuk, Lindea y Leo;Sorpresas Divertidas;Juguetes;https://www.youtube.com/watch?v=pCq1KEOwuSA;2019-06-13T16:00:12Z;2019;6
-81;-Kprj7GgNl4;🎤 ¡LA REINA DE YOUTUBE ! 🔥 DIVA YOURSELF CHALLENGE 🎶 KARINA Y MARINA Feat Jose Seron;Karina & Marina;Música;https://www.youtube.com/watch?v=-Kprj7GgNl4;2019-06-01T16:00:00Z;2019;6
+81;#¿NOMBRE?;🎤 ¡LA REINA DE YOUTUBE ! 🔥 DIVA YOURSELF CHALLENGE 🎶 KARINA Y MARINA Feat Jose Seron;Karina & Marina;Música;https://www.youtube.com/watch?v=-Kprj7GgNl4;2019-06-01T16:00:00Z;2019;6
 82;_4e5FY7f7UI;Elsa and Anna toddlers pool party and challenges;divernic doll adventures;Juguetes;https://www.youtube.com/watch?v=_4e5FY7f7UI;2019-06-07T16:45:04Z;2019;6
 83;XUGGQd6jZME;Las ratitas en parque inflable con bolas de colores playing park inflatable ball colors;Las Ratitas;Videos infantiles;https://www.youtube.com/watch?v=XUGGQd6jZME;2019-06-01T16:12:52Z;2019;6
 84;A409FxkgvNk;Las Ratitas PRETEND PLAY HOUSE PRINCESS;Las Ratitas;Videos infantiles;https://www.youtube.com/watch?v=A409FxkgvNk;2019-06-22T16:43:32Z;2019;6
@@ -171,7 +171,7 @@
 170;-0ymVzxe2d4;Saiyan Saga In A Nutshell;Kyskke;Parodia;https://www.youtube.com/watch?v=-0ymVzxe2d4;2019-12-14T01:08:01Z;2019;12
 171;Jw5fUGVztGs;🤩 GRANDES MOMENTOS de 2019 · Tercera parte;TOROS EN ESPAÑA TV;Recopilación;https://www.youtube.com/watch?v=Jw5fUGVztGs;2019-12-16T17:07:52Z;2019;12
 172;Y1rAupY8kV8;YOUTUBE REWIND HISPANO 2019 [Alecmolon];Alec Hernández;Recopilación;https://www.youtube.com/watch?v=Y1rAupY8kV8;2019-12-28T19:02:03Z;2019;12
-173;-Nk1XLlDYJM;PROBANDO 6 INVENTOS ESTÚPIDOS de COCINA  con MIKECRACK! ¿Seré MÁS rápido que él?;La Cocina Del Pirata;Pruebas y Experimentos;https://www.youtube.com/watch?v=-Nk1XLlDYJM;2019-12-28T17:19:47Z;2019;12
+173;#¿NOMBRE?;PROBANDO 6 INVENTOS ESTÚPIDOS de COCINA  con MIKECRACK! ¿Seré MÁS rápido que él?;La Cocina Del Pirata;Pruebas y Experimentos;https://www.youtube.com/watch?v=-Nk1XLlDYJM;2019-12-28T17:19:47Z;2019;12
 174;fHPJJIF59SE;Los Hermanos defienden a BrunoTube del Hacker;LeoTube;Vlogs;https://www.youtube.com/watch?v=fHPJJIF59SE;2019-12-13T19:00:09Z;2019;12
 175;Pj4JUUa5x5Q;PROBAMOS 5 INVENTOS INCREÍBLES QUE QUERRÁS TENER 😱😂 ¿FUNCIONAN?  -  LA COCINA DE MIKE #12;Mikecrack;Pruebas y Experimentos;https://www.youtube.com/watch?v=Pj4JUUa5x5Q;2019-12-28T20:25:56Z;2019;12
 176;eEopsgTX_sk;Taller de Navidad LeoTube;LeoTube;Vlogs;https://www.youtube.com/watch?v=eEopsgTX_sk;2019-12-06T19:00:07Z;2019;12
@@ -273,7 +273,7 @@
 272;8O6qsIIju8U;Construimos un barco de plástico casero con material reciclado;MikelTube;Manualidades;https://www.youtube.com/watch?v=8O6qsIIju8U;2020-07-09T18:00:11Z;2020;7
 273;0xtTDNIffsU;Es momento de Just Eat;Just Eat España;Publicidad;https://www.youtube.com/watch?v=0xtTDNIffsU;2020-07-27T08:53:48Z;2020;7
 274;Q-G6dlXbIoc;Mikel y sus amigos se enfrentan a la CABINA DEL DESTINO;MikelTube;Juego;https://www.youtube.com/watch?v=Q-G6dlXbIoc;2020-07-02T18:00:10Z;2020;7
-275;-TtMZjYf7es;10 Razas de Perros Que no Deberías Molestar;#Refugio Mental;Mascotas;https://www.youtube.com/watch?v=-TtMZjYf7es;2020-07-21T18:04:59Z;2020;7
+275;#¿NOMBRE?;10 Razas de Perros Que no Deberías Molestar;#Refugio Mental;Mascotas;https://www.youtube.com/watch?v=-TtMZjYf7es;2020-07-21T18:04:59Z;2020;7
 276;qpKd9uDxbUM;¿¡ UNA PERSONA bajo un GLOBO GIGANTE con 200 LITROS DE AGUA ?! ¿ES POSIBLE RESISTIR?;Timon se ha Vuelto Loco;Desafíos;https://www.youtube.com/watch?v=qpKd9uDxbUM;2020-07-14T18:00:15Z;2020;7
 277;q7fwgkKoq_0;MikelTube Wars La oleada de Abejonejos;MikelTube;Juego;https://www.youtube.com/watch?v=q7fwgkKoq_0;2020-07-24T18:30:09Z;2020;7
 278;gFE3MKFEz6c;Nunca Le Había Visto Llorar Así...;YoSoyPlex;Emocional;https://www.youtube.com/watch?v=gFE3MKFEz6c;2020-07-24T18:15:00Z;2020;7
@@ -342,7 +342,7 @@
 341;B_snkEGZW0U;ABRO 50 SORPRESAS de BARBIE COLOR REVEAL con Barbies Mágicas y Juguetes  -  Curiosidades con Mike;Curiosidades con Mike;Entretenimiento Infantil;https://www.youtube.com/watch?v=B_snkEGZW0U;2020-11-28T18:03:01Z;2020;11
 342;upcdJ6z-wiQ;El Nacimiento de Equipo Danger  -  España  -  Nickelodeon en Español;Nickelodeon en Español;Entretenimiento Infantil;https://www.youtube.com/watch?v=upcdJ6z-wiQ;2020-11-26T16:00:11Z;2020;11
 343;3vvVfYLou9A;Revelación De Género FAILS  -  Fiestas De Niño o Niña ...;UVE;Comedia;https://www.youtube.com/watch?v=3vvVfYLou9A;2020-11-18T15:00:03Z;2020;11
-344;-ir4InL9aMY;"DAISY&#39;S DESTRUCTION ES REAL Y NO DEBERÍAS VERLO JAMÁS";El Rincón De Giorgio;Informativo;https://www.youtube.com/watch?v=-ir4InL9aMY;2020-11-23T15:18:07Z;2020;11
+344;#¿NOMBRE?;"DAISY&#39;S DESTRUCTION ES REAL Y NO DEBERÍAS VERLO JAMÁS";El Rincón De Giorgio;Informativo;https://www.youtube.com/watch?v=-ir4InL9aMY;2020-11-23T15:18:07Z;2020;11
 345;tanWvO18z-I;NO MESSIRVE  -  Memes Reddit #1;Rubius Z;Comedia;https://www.youtube.com/watch?v=tanWvO18z-I;2020-11-06T20:32:25Z;2020;11
 346;G1Kicmwv8Ik;¡Ruta completada! Es tu momento Just Eat;Just Eat España;Comida;https://www.youtube.com/watch?v=G1Kicmwv8Ik;2020-12-16T09:15:31Z;2020;12
 347;ZdNCgBvvCSM;Skittles MEME: Pop Cat;BENBROS;Comedia;https://www.youtube.com/watch?v=ZdNCgBvvCSM;2020-12-10T19:59:32Z;2020;12
@@ -371,7 +371,7 @@
 370;i28PtSuBfy4;LA MEJOR COLECCION DE CUCHILLOS MAS AFILADOS Y PODEROSOS!! RETO DE CUCHILLOS !! MAKIMAN;Makiman131;Desafíos;https://www.youtube.com/watch?v=i28PtSuBfy4;2021-01-25T18:42:25Z;2021;1
 371;ulWO7KRb74Q;SE PEGÓ EN MI OJO!;YoSoyPlex;Vlogs;https://www.youtube.com/watch?v=ulWO7KRb74Q;2021-01-05T19:15:01Z;2021;1
 372;rC5r97wRXYQ;LE HAGO UN CAMBIO DE LOOK EXTREMO A MI HERMANA PEQUEÑA!;YoSoyPlex;Vlogs;https://www.youtube.com/watch?v=rC5r97wRXYQ;2021-01-06T19:15:01Z;2021;1
-373;--RBg_OPkgA;Aquí no hay quien viva - T5 Capítulo 1: Érase una extradición  -  Capítulo completo;ATRESplayer PREMIUM;Series de televisión;https://www.youtube.com/watch?v=--RBg_OPkgA;2021-01-23T13:00:01Z;2021;1
+373;#¿NOMBRE?;Aquí no hay quien viva - T5 Capítulo 1: Érase una extradición  -  Capítulo completo;ATRESplayer PREMIUM;Series de televisión;https://www.youtube.com/watch?v=--RBg_OPkgA;2021-01-23T13:00:01Z;2021;1
 374;AP0CioTcEtg;Aquí no hay quien viva - T4 Capítulo 1: Érase un despertar  -  Capítulo completo;ATRESplayer PREMIUM;Series de televisión;https://www.youtube.com/watch?v=AP0CioTcEtg;2021-01-22T13:00:03Z;2021;1
 375;Uiz_avJ51SY;AMONG US en la vida real con Gisele y Claudia Las Ratitas;Las Ratitas;Entretenimiento Infantil;https://www.youtube.com/watch?v=Uiz_avJ51SY;2021-01-22T14:45:10Z;2021;1
 376;e1SVonFKt34;Must Watch New Funny Video 2021_Top New Comedy Video 2021_Try To Not Laugh_Episode-175_By #MyFamily;MY FAMILY;Comedia;https://www.youtube.com/watch?v=e1SVonFKt34;2021-02-24T03:21:09Z;2021;2
@@ -489,7 +489,7 @@
 488;CwnlNQSHBfc;Ft. Madison, Iowa USA   -  Virtual Railfan LIVE;Virtual Railfan;Live;https://www.youtube.com/watch?v=CwnlNQSHBfc;2021-09-24T10:30:18Z;2021;9
 489;WsqrQUQqj6g;THE BEST OF SEASON 7 CHAPTER 2 (S17) - FORTNITE CHALLENGE  -  tusadivi;tusadivi;Entretenimiento de Videojuegos;https://www.youtube.com/watch?v=WsqrQUQqj6g;2021-09-09T16:52:45Z;2021;9
 490;FvHThtOPrek;ESCAMEO TRADEO POP IT FIDGET A VANESA *SE ENFADA MUCHO!*;Vanesa Basanta;Entretenimiento Infantil;https://www.youtube.com/watch?v=FvHThtOPrek;2021-09-07T18:00:13Z;2021;9
-491;-OE9jMCU13k;SI TE RÍES PIERDES #8;Ibai;Entretenimiento Cómico;https://www.youtube.com/watch?v=-OE9jMCU13k;2021-09-19T14:54:40Z;2021;9
+491;#¿NOMBRE?;SI TE RÍES PIERDES #8;Ibai;Entretenimiento Cómico;https://www.youtube.com/watch?v=-OE9jMCU13k;2021-09-19T14:54:40Z;2021;9
 492;DyET9VQZA3E;COMIENDO EN EL RESTAURANTE MÁS CARO DE BARCELONA;Ibai;Entretenimiento Gastronómico;https://www.youtube.com/watch?v=DyET9VQZA3E;2021-10-01T19:47:13Z;2021;9
 493;z0THUTuRGJE;Bluey: La pluma mágica  -  Disney Junior Oficial;Disney Junior España;Entretenimiento Infantil;https://www.youtube.com/watch?v=z0THUTuRGJE;2021-09-26T15:00:35Z;2021;9
 494;e9yxPyKhi-0;DESMINTIENDO LIFE HACKS ESTÚPIDOS en la VIDA REAL 💩😂 LA COCINA DE MIKECRACK #15;Mikecrack;Entretenimiento Cómico;https://www.youtube.com/watch?v=e9yxPyKhi-0;2021-09-22T17:30:03Z;2021;9
@@ -497,7 +497,7 @@
 496;Vepc0asQC3I;LA DESPEDIDA DE TROLLI 😥💔 LAS PERRERÍAS DE MIKE Ep. 1 (Temporada 2);Mikecrack;Entretenimiento Animado;https://www.youtube.com/watch?v=Vepc0asQC3I;2021-10-15T18:00:12Z;2021;10
 497;zRXz-cdsuDk;EL ORIGEN DE HALLOWEEN 🎃🍬 Las Perrerías de Mike Ep. 2 (Temporada 2) [ESPECIAL DE HALLOWEEN 2021];Mikecrack;Entretenimiento Animado;https://www.youtube.com/watch?v=zRXz-cdsuDk;2021-10-29T17:30:09Z;2021;10
 498;BENxE-qtifY;EL JUEGO DEL CALAMAR Luz Verde Tira de la Cuerda;FamilyTube;Entretenimiento Juego;https://www.youtube.com/watch?v=BENxE-qtifY;2021-10-23T18:00:11Z;2021;10
-499;-tMTI-D7DBQ;"I&#39;m A Boy..Koreans Meet Cross Dresser For The First Time";GIGGLE;Entretenimiento Social;https://www.youtube.com/watch?v=-tMTI-D7DBQ;2021-10-07T17:00:00Z;2021;10
+499;#¿NOMBRE?;"I&#39;m A Boy..Koreans Meet Cross Dresser For The First Time";GIGGLE;Entretenimiento Social;https://www.youtube.com/watch?v=-tMTI-D7DBQ;2021-10-07T17:00:00Z;2021;10
 500;fnaNSD7KNNE;ASÍ CONSEGUÍ CAMBIAR MI FÍSICO EN 3 MESES #shorts;ArteMaster;Entretenimiento de Estilo de Vida;https://www.youtube.com/watch?v=fnaNSD7KNNE;2021-10-11T18:21:16Z;2021;10
 501;PQExnSUMBnw;Dani y Evan y el MEGA LABORATORIO de MONSTRUOS de Treasure X MONSTER GOLD;Las Aventuras de Dani y Evan;Entretenimiento Infantil;https://www.youtube.com/watch?v=PQExnSUMBnw;2021-10-22T18:00:11Z;2021;10
 502;DyET9VQZA3E;COMIENDO EN EL RESTAURANTE MÁS CARO DE BARCELONA;Ibai;Entretenimiento Gastronómico;https://www.youtube.com/watch?v=DyET9VQZA3E;2021-10-01T19:47:13Z;2021;10
@@ -513,7 +513,7 @@
 512;G6x5GCEBMXY;CUMPLEAÑOS DE BRUNO;FamilyTube;Entretenimiento Familiar;https://www.youtube.com/watch?v=G6x5GCEBMXY;2021-11-27T19:00:10Z;2021;11
 513;AC3uUBbJ6rs;Sándwich PERFECTO de Hora de Aventura en LA VIDA REAL;La Cocina Del Pirata;Entretenimiento Culinario;https://www.youtube.com/watch?v=AC3uUBbJ6rs;2021-11-08T18:30:17Z;2021;11
 514;osN84NkedSc;DOY 500€ AL QUE MÁS ME HAGA REÍR  -  SI TE RÍES PIERDES 9;Ibai;Entretenimiento Cómico;https://www.youtube.com/watch?v=osN84NkedSc;2021-11-03T21:42:00Z;2021;11
-515;-ObSi1u6oHc;5 Creative Photography Ideas you must try;Jordi Koalitic;Entretenimiento Creativo;https://www.youtube.com/watch?v=-ObSi1u6oHc;2021-11-18T14:02:35Z;2021;11
+515;#¿NOMBRE?;5 Creative Photography Ideas you must try;Jordi Koalitic;Entretenimiento Creativo;https://www.youtube.com/watch?v=-ObSi1u6oHc;2021-11-18T14:02:35Z;2021;11
 516;LEBu88yXJ90;Compilado: los momentos más divertidos de Bluey y Bingo  -  Disney Junior Oficial;Disney Junior España;Entretenimiento Infantil;https://www.youtube.com/watch?v=LEBu88yXJ90;2021-11-20T10:00:07Z;2021;11
 517;M8pyAtqL35o;Funda para Dedo;jiajunyin2;Entretenimiento Curioso;https://www.youtube.com/watch?v=M8pyAtqL35o;2021-11-19T21:24:25Z;2021;11
 518;AfgP9tjIt9o;cuando tu amigo y su novia discuten delante de ti;Ibai;Entretenimiento Cómico;https://www.youtube.com/watch?v=AfgP9tjIt9o;2021-11-08T19:07:16Z;2021;11
@@ -617,7 +617,7 @@
 616;T8qHpjcLvAI;The Best Prank 😄😄 #shorts #funny #prank #trending #viral;PRANKY;Entretenimiento de Bromas;https://www.youtube.com/watch?v=T8qHpjcLvAI;2022-06-29T12:38:05Z;2022;6
 617;ju_BkdeXmqk;Sonic hate test) #sonic #toonymoonyart #papercraft #fnf #shorts #sonicexe #fun  #drawing #dontbeshy;Toony Moony ART;Entretenimiento Artístico;https://www.youtube.com/watch?v=ju_BkdeXmqk;2022-06-12T13:22:58Z;2022;6
 618;n3Dsed3zAh4;Choose kitten or puppy ? 😢😊 Sonsi family #shorts Tiktok;Sơn sì Family;Entretenimiento de Mascotas;https://www.youtube.com/watch?v=n3Dsed3zAh4;2022-06-12T11:00:35Z;2022;6
-619;-HMS-JXhPS0;The Boys: The Death of Homelander;Flikey;Entretenimiento de Series;https://www.youtube.com/watch?v=-HMS-JXhPS0;2022-06-12T23:13:35Z;2022;6
+619;#¿NOMBRE?;The Boys: The Death of Homelander;Flikey;Entretenimiento de Series;https://www.youtube.com/watch?v=-HMS-JXhPS0;2022-06-12T23:13:35Z;2022;6
 620;PXW5Sdf75sg;Most viral video  -  Indian couple having intense love  -  hardcore sex video  -  cowgirl position sex;Raj Entertainment;Entretenimiento Inapropiado (contenido no recomendado);https://www.youtube.com/watch?v=PXW5Sdf75sg;2022-06-04T06:35:59Z;2022;6
 621;CmKbF_Y0bqc;Cuando te cortas en pelo en China 🥲 #shorts;Mexicanos en China;Entretenimiento Cómico;https://www.youtube.com/watch?v=CmKbF_Y0bqc;2022-06-22T14:39:31Z;2022;6
 622;kDzyi2JSJ_g;LA TRISTEZA DE AKELA 😥😭  Las Perrerías de Mike Ep. 14 (Temporada 2);Mikecrack;Entretenimiento Animado;https://www.youtube.com/watch?v=kDzyi2JSJ_g;2022-06-04T18:10:11Z;2022;6
@@ -652,7 +652,7 @@
 651;3iOIbtVm_2E;3 CARA MENGIKAT MATA KAIL #shorts;SONO MANCING;Entretenimiento de Pesca;https://www.youtube.com/watch?v=3iOIbtVm_2E;2022-08-31T11:59:44Z;2022;8
 652;CZcLC1eF45Y;SI ME CAIGO GASTARE TODAS MIS GEMAS 😢 #shorts;El Stumblero;Entretenimiento de Juegos;https://www.youtube.com/watch?v=CZcLC1eF45Y;2022-08-22T19:10:00Z;2022;8
 653;Xj5neV8Dluc;Si terminas este video te ganas un iPhone 13 !;UVE;Entretenimiento de Desafíos;https://www.youtube.com/watch?v=Xj5neV8Dluc;2022-08-24T15:00:23Z;2022;8
-654;-U8Ymwdn5tk;Marvel Spidey y su Superequipo: El gran experimento de Spidey  -  Disney Junior Oficial;Disney Junior España;Entretenimiento Infantil;https://www.youtube.com/watch?v=-U8Ymwdn5tk;2022-08-20T09:00:01Z;2022;8
+654;#¿NOMBRE?;Marvel Spidey y su Superequipo: El gran experimento de Spidey  -  Disney Junior Oficial;Disney Junior España;Entretenimiento Infantil;https://www.youtube.com/watch?v=-U8Ymwdn5tk;2022-08-20T09:00:01Z;2022;8
 655;i5Hm0ZtGnkU;Wagyu Beef Eggplant Gratin #shorts;Bayashi TV;Entretenimiento Culinario;https://www.youtube.com/watch?v=i5Hm0ZtGnkU;2022-08-01T10:00:33Z;2022;8
 656;AG3941MqOio;Cuando Llevas A Tu Novia A Verte Jugar Al Futbol ⚽️🚀 Paul Ferrer #shorts;Paul Ferrer Shorts;Entretenimiento Deportivo;https://www.youtube.com/watch?v=AG3941MqOio;2022-08-01T19:30:00Z;2022;8
 657;B8HsD4o-GIM;Vacaciones Siempre Sale Mal;FamilyTube;Entretenimiento de Viajes;https://www.youtube.com/watch?v=B8HsD4o-GIM;2022-08-02T18:00:12Z;2022;8
